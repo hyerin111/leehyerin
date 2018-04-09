@@ -1,0 +1,10 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<a href='/home/new'>새글쓰기</a><br><br>
+
+<% @likelion.each do |r| %>
+제목 : <%= r.title %><br>
+내용 : <%= r.content %><br>
+--------------------------------<br><br>
+<% end %>
